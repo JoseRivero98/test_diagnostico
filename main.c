@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Personaje.h"
 
 void capturar_enteros(){
     int enteros[5];
@@ -59,8 +60,10 @@ int main()
             mostrar(n, cadena);
             break;
         case '3':
+             capturar_persona();
             break;
         case '4':
+            mostrar_personajes();
             break;
         default:
             break;
